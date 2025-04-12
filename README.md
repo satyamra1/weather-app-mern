@@ -1,8 +1,10 @@
-# weather-app-mern
-Live - https://weather-app-mern-pi.vercel.app/
-BACKEND:-
-Step 1 : npm install (install all backend dependency)
-Step 2 : Add .env file in server folder -> add environmental variables
+# 🌦️ Weather App (MERN Stack)
+
+**Live Demo:** [https://weather-app-mern-pi.vercel.app/](https://weather-app-mern-pi.vercel.app/)
+### 🛠 Backend Setup (`/server`)
+1. **Install Dependencies**
+  npm install (install all backend dependency)
+2.  Add .env file in server folder -> add environmental variables
  - OPENWEATHER_API_KEY=
  - PORT=
 Step 3: node server.js (to start backend)
