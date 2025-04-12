@@ -5,9 +5,13 @@
 1. **Install Dependencies**
   npm install (install all backend dependency)
 2.  Add .env file in server folder -> add environmental variables
- - OPENWEATHER_API_KEY=
- - PORT=
-Step 3: node server.js (to start backend)
+ - OPENWEATHER_API_KEY=your_api_key
+ - PORT=Your_port
+3. node server.js (to start backend)
+
+
+
+
 
 FRONTEND:-
 Step 1 - Install dependencies ("npm install")
