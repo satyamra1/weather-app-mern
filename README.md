@@ -1,5 +1,5 @@
 # weather-app-mern
-
+Live - https://weather-app-mern-pi.vercel.app/
 BACKEND:-
 Step 1 : npm install (install all backend dependency)
 Step 2 : Add .env file in server folder -> add environmental variables
