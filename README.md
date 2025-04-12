@@ -9,10 +9,6 @@
  - PORT=Your_port
 3. node server.js (to start backend)
 
-
-
-
-
-FRONTEND:-
-Step 1 - Install dependencies ("npm install")
-Step 2 - npm run dev (to start server)
+### 🛠 Frontend Setup (`/client`)
+1. **Install dependencies** ("npm install")
+2.  **Start Server** npm run dev 
