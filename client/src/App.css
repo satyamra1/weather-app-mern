@@ -1,0 +1,99 @@
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+.weather-card {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 20px;
+  display: inline-block;
+  background-color: #f5f5f5;
+}
+
+.error {
+  color: red;
+}
+
+.weather-card{
+  min-width: 200px;
+}
+.forecast{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-body{
+  padding: 3%;
+  display: flex;
+  border-radius: 20px;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10%;
+  background-color:rgb(46, 46, 46);
+}
+
+@media (max-width:768px){
+  .main-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10%;
+  }
+  .forecast{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+   
+  }
+}
+
+.searchForm{
+
+  display: flex;
+  justify-content: center;
+}
+.searchForm input{
+  padding: 10px;
+}
+.searchForm button{
+  background-color: rgb(255, 255, 255);
+  font-weight: 800;
+  /* border-radius: 5px; */
+}
+
+.themebtn button{
+  color: rebeccapurple;
+  position:absolute;
+  margin: 20px;
+  right: 0;
+  top: 0;
+  /* bottom: 100; */
+  left: 100;
+}
+
+.history{
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.history button{
+ padding: 3px;
+}
+
+body.light .forecast{
+  /* background-color: white; */
+  color: rgb(255, 0, 0);
+}
+
+body.dark .weather-card{
+  /* background-color: #121212; */
+  color: rgb(40, 112, 255);
+}
+body.dark .forecast{
+  /* background-color: #121212; */
+  color: rgb(255, 255, 255);
+}
